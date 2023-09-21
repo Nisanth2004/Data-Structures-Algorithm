@@ -1,0 +1,71 @@
+h1{
+    color:pink;
+    font-size:4em;
+}
+h2{
+    color:red;
+    width: 900px;
+}
+    
+#para1{
+    text-align: center;
+    color:blue ;
+}
+#para2{
+    text-decoration: double;
+    color: chartreuse;
+}
+#ccc1{
+    text-align: center;
+}
+
+        .abcd{
+            text-align: center;
+        }
+p.center{
+    text-align: end;
+}
+p.large{
+    text-align: center;
+    font-size: 300%;
+    color: black;
+}
+a[target]
+{
+    color: brown;
+}
+[title~="linux"]
+{
+    border: 5px solid red;
+}
+[class^="abc"]
+{
+    background-color: chartreuse;
+}
+[class$="xyz"]
+{
+    background-color: pink;
+}
+[class*="gh"]
+{
+    background-color: blue;
+}
+div >p{
+    background-color: blueviolet;
+}
+div:nth-of-type(2)
+{
+    background-color: green;
+}
+li:nth-of-type(2)
+{
+    background-color: black;
+    color:green;
+}
+:nth-of-type(2)
+{
+    background-color: aqua;
+    font-style:unset;
+   
+}
+background-image::after  -moz-radial-gradient();

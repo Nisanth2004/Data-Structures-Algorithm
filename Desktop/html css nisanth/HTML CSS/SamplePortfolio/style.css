@@ -1,0 +1,494 @@
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+        
+        .hero {
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(rgba(250, 150, 200, 0.2), #009688);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        
+        nav ul {
+            display: flex;
+            float: right;
+        }
+        
+        nav ul li {
+            padding: 10px 20px;
+        }
+        
+        .name {
+            color: black;
+            font-size: 69px;
+        }
+        
+        span {
+            color: red;
+        }
+        
+        .navbar {
+            width: 90%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .container {
+            content: '';
+            width: 180px;
+            height: 180px;
+            background: #f41b75;
+            border-radius: 50px;
+            top: -50px;
+            left: -50px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 27px;
+            position: relative;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        
+        .navbar ul li a::after {
+            content: '';
+            height: 3px;
+            width: 0;
+            background: blue;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: .5s;
+        }
+        
+        .navbar ul li a:hover:after {
+            color: brown;
+            transition: 1s;
+            width: 100%;
+        }
+        
+        .btn {
+            background-color: transparent;
+            color: black;
+            border: 2px solid black;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50px;
+            width: 0px;
+            text-decoration: none;
+            transition: .5s;
+            /*
+    font-weight: bold;
+    color: red;
+    background-color: azure;
+    border-radius: 50px;
+    text-decoration: none;
+    remove:border: ;
+    font-size: 16px;
+*/
+        }
+        
+        .btn:hover {
+            background: linear-gradient(45deg, #f65456, #fff);
+            transform: scale(1.3);
+            transition: .5s;
+            color: black;
+        }
+        
+        .content {
+            top: 95px;
+            left: 30px;
+            position: absolute;
+            transform: translate(50%, 50%);
+        }
+        
+        h3 {
+            color: black;
+            margin-bottom: 15px;
+        }
+        
+        h2 {
+            color: black;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: black;
+            margin-bottom: 15px;
+        }
+        
+        .subscribe form {
+            width: 400px;
+            position: relative;
+        }
+        
+        .subscribe form input:first-child {
+            display: inline-block;
+            padding: 15px 120px 13px 14px;
+            width: 100%;
+            border: 3px solid red;
+            border-radius: 40px;
+        }
+        
+        .start {
+            font-size: 15px;
+        }
+        
+        .start:hover {
+            transform: scale(1.3);
+            transition: .5s;
+            background: linear-gradient(45deg, #f65456, #08f);
+        }
+        
+        .subscribe form input:last-child {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            background-color: red;
+            color: white;
+            top: 7px;
+            right: 7px;
+            border-radius: 40px;
+            position: absolute;
+            box-shadow: 0px 0px 10px black;
+        }
+        
+        .about_me {
+            padding: 100px 0px;
+            width: 100%;
+            background-image: url(workspace-g6be1c70e7_1920.jpg);
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .about_me img {
+            width: 350px;
+            height: 600px;
+            bottom: 500px;
+            top: 800px;
+        }
+        
+        .about_content {
+            color: white;
+            padding: 50px;
+        }
+        
+        .main {
+            display: flex;
+            margin-left: 40px;
+        }
+        
+        .about_content h3 {
+            font-size: 40px;
+            color: greenyellow;
+        }
+        
+        .about_content h5 {
+            font-size: 30px;
+            color: red;
+            letter-spacing: 2px;
+        }
+        
+        .about_content p {
+            font-size: 25px;
+            color: lightgray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .btn_talk {
+            font-weight: bold;
+            color: red;
+            background-color: azure;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .btn_talk {
+            background-color: forestgreen;
+            color: white;
+            border: 2px solid red;
+            cursor: pointer;
+            padding: 5px;
+        }
+        
+        .btn_talk:hover {
+            background-color: black;
+            transform: scale(1.3);
+            transition: .5s;
+        }
+        
+        .objective {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 29px;
+            color: white;
+        }
+        
+        .career {
+            font-size: 40px;
+            color: lightblue;
+        }
+        
+        .skills {
+            background-color: black;
+            width: 100%;
+            padding: 90px 5px;
+            color: white;
+        }
+        
+        .title h1 {
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            right: 400px;
+            left: 400px;
+            top: 100px;
+            bottom: 500px;
+        }
+        
+        .abcd {
+            color: white;
+            text-align: center;
+            color: #000;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-top: 5px;
+        }
+        
+        .efgh {
+            text-align: center;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-top: 5px;
+        }
+        
+        .ijkl {
+            margin-top: 5px;
+            color: white;
+            text-align: center;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        
+        .nisa {
+            margin-top: 5px;
+            color: white;
+            text-align: center;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .card {
+            height: 350px;
+            width: 270px;
+            background: grey;
+            border-radius: 25px;
+            margin: 12px;
+        }
+        
+        .para p {
+            margin-bottom: 60px;
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 26px;
+        }
+        
+        .para .button {
+            text-decoration: none;
+            border-radius: 30px;
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+        }
+        
+        .para .button:hover {
+            border: 2px solid fuchsia;
+            cursor: pointer;
+            background-color: black;
+            transform: scale(1.3);
+            transition: .5s;
+        }
+        
+        .card i {
+            color: green;
+            display: block;
+            text-align: center;
+            margin: 15px 0px;
+            font-size: 40px;
+        }
+        
+        .hire {
+            width: 100%;
+            align-items: center;
+            background-color: lightgray;
+            height: 200px;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .hire h3 {
+            font-size: 40px;
+            color: brown;
+            margin-left: 9%;
+        }
+        
+        .hire .button {
+            text-decoration: none;
+            border-radius: 30px;
+            background: transparent;
+            color: black;
+            transition: .5s;
+            padding: 10px 20px;
+            margin-left: 24%;
+            border: 2px solid black;
+        }
+        
+        .hire .button:hover {
+            background: linear-gradient(45deg, #f65456, #08f);
+            border: 2px solid black;
+            cursor: pointer;
+            transform: scale(2.3);
+            transition: .5s;
+        }
+        
+        .hire p {
+            font-size: 25px;
+            font-style: normal;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: antiquewhite;
+            justify-content: center;
+        }
+        
+        .footer .name {
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+            margin-left: 40%;
+        }
+        
+        .footer .copy {
+            font-size: 25px;
+            color: brown;
+            font-weight: bold;
+            margin-left: 47%;
+        }
+        
+        .footer .back {
+            font-size: 20px;
+            color: brown;
+            font-weight: bold;
+            margin-left: 47%;
+            margin-bottom: 50px;
+        }
+        
+        .footer .back a {
+            text-decoration: none;
+            font-size: 20px;
+            width: 21%;
+            height: 25%;
+            color: black;
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(180deg, #f767f7, #f986f9);
+        }
+        
+        .footer .back a:hover {
+            border: 2px solid black;
+            cursor: pointer;
+            background-color: transparent;
+            transform: scale(1.3);
+            transition: .2s;
+        }
+        
+        .footer .detail {
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            margin-left: 42%;
+        }
+        
+        .footer .register a {
+            color: black;
+            margin-left: 42%;
+            border: 2px solid red;
+            width: 21%;
+            height: 25%;
+            text-decoration: none;
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(45deg, #ff8978, #f41b75);
+        }
+        
+        .footer .social-media a {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            color: white;
+            background-color: blue;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            margin: 20px 10px;
+            font-size: 23px;
+            margin-left: 55%;
+            display: inline-flex;
+        }
+        
+        .footer .social-media a:hover {
+            background-color: black;
+            border: 2px solid black;
+            cursor: pointer;
+            transform: scale(1.3);
+            transition: .5s;
+        }
+        
+        .white {
+            color: WHITE;
+            padding: 30px 70px;
+            width: fit-content;
+            margin: 30px auto;
+            font-size: 30px;
+            font-weight: 50;
+            font-style: italic;
+            transition: text-shadow 0.5s, box-shadow 0.5s;
+        }
+        
+        .white:hover {
+            text-shadow: -2px -2px 10px #fff, 2px 2px 10px #fff, 0 0 20px #f10, 0 0 40px #f10, 0 0 60px #f10, 0 0 80px #f10, 0 0 100px #f10;
+            box-shadow: 0 0 5px #fff, inset 0 0 5px #fff, 0 0 20px #08f, inset 0 0 20px #08f, 0 0 40px #08f, inset 0 0 40px #08f;
+        }

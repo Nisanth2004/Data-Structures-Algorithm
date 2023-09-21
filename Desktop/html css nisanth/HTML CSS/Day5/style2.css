@@ -1,0 +1,30 @@
+body
+{
+   width: 500px;
+   height: 1400px;
+   margin:  0 auto;
+}
+h1
+{
+    position: fixed;
+    margin-top: 0;
+    top:0;
+    width: 500px;
+    padding: 10px;
+    background: white;
+
+}
+p:nth-of-type(1)
+{
+    margin-top: 100px;
+}
+dt
+{
+   background-color: black;
+   color: white;
+   position: sticky;
+   padding: 10px;
+   top: 0;
+   left: 0;
+   margin: lem 0;
+}

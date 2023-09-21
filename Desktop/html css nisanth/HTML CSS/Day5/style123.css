@@ -1,0 +1,141 @@
+p.first
+{
+    color: red;
+    text-align: center;
+    text-decoration:overline;
+    text-transform: uppercase;
+    text-indent: 50px;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+    
+}
+p.second
+{
+    color: rgb(255,0,0);
+    text-align: end;
+    text-decoration: line-through;
+    text-transform: capitalize;font-style: italic;
+    font-size: 45;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p.third
+{
+    color: #ff00ff;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: lowercase;
+
+}
+a:hover
+{
+    color:black;
+    background-color: yellow;
+}
+a:active
+{
+    color:blueviolet;
+    background-color: black;
+}
+a:visited
+{
+    color: lightgreen;
+}
+ol li
+{
+   list-style-type: upper-roman;
+
+}
+ul li
+{
+   list-style-type:lower-alpha;
+}
+#abc
+{
+    visibility: hidden;
+}
+table
+{
+  width:100%;
+  height: 100%;
+  border: 3px solid blue;
+
+}
+th
+{
+  border: 2px solid brown;
+}
+
+div
+{
+    width: 60%; height:40%;border:3px solid red;margin: 25px;padding: 25px;
+}
+
+
+body
+{
+    background-image: url(linux.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+div.abcd
+{
+    border: 3px solid orange;
+    position: static;
+}
+div.hgvh
+{
+    border: 3px solid blue;
+    position: fixed;
+    top:800px;
+    bottom:500;
+    right:100;
+    width:300px;
+h1
+  {
+    color: initial;/*first default value for this*/
+  } 
+   
+}
+div.absolute
+{
+    border: 3px solid blue;
+    position: absolute;
+    top:800px;
+    bottom:500px;
+    right:0;
+    width:300px;
+}
+p#access
+{
+    width: 500px;
+    border: 3px solid red;
+    padding: 30px 50px 30px 50px;/*box creating*/
+    margin: 50px;
+}
+div.ffff
+{
+    color:red;
+    border:1px solid black;
+}
+.extra span
+{
+   color:inherit; /*look neighbour style in index html*/
+}
+/*
+.parent
+{
+    color:red;
+}
+p
+{
+    color:black;
+}
+.alt
+{
+    color:revert; change to parent property
+}
+*/
+

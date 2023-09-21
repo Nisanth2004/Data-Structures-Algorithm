@@ -1,0 +1,28 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Documents/Desktop/HTML CSS/Day7"
+		},
+		{
+			"path": "../../Documents/Desktop/karpagam"
+		},
+		{
+			"path": "../../Documents/Desktop/ADVANCED TECH"
+		},
+		{
+			"path": "../../Smart premonition"
+		},
+		{
+			"path": "../Day9"
+		},
+		{
+			"path": "../../Documents/Desktop/chess"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Day7"
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../HTML learning"
+		},
+		{
+			"path": "../../../HTML learning2"
+		},
+		{
+			"path": "../../../CSS Learning"
+		},
+		{
+			"path": "../../../CSS Learning 2"
+		},
+		{
+			"path": "../../../CSS learning3"
+		},
+		{
+			"path": "../../../CSS learning 4"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML learning2"
+	}
+}
